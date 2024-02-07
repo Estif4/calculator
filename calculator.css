@@ -1,3 +1,6 @@
+ body{
+  background-color:lightgray;
+ }
  input{
         display:inline-block;
         margin-left:2px;
@@ -32,13 +35,37 @@
         border-color:aqua;
         padding-bottom:5px;
         width:280px;
-      
- margin-left:100px;
+    margin-top:2%;
+    
+   margin-left:auto;
+   margin-right:auto;
+          
+
  border-radius:15px;
  padding:15px;
  background-color: antiquewhite;
  box-shadow: -5px 10px 15px 12px rgb(144, 158, 159);
  
+      }
+      .div1{
+        display:flex;
+        flex-direction: row;
+      }
+      .div2{
+        display:flex;
+        flex-direction: row;
+      }
+      .div3{
+        display:flex;
+        flex-direction: row;
+      }
+      .div4{
+        display:flex;
+        flex-direction: row;
+      }
+      .div5{
+        display:flex;
+        flex-direction: row;
       }
       .del{
         color:rgb(241, 82, 82);
@@ -69,14 +96,19 @@
   justify-content: center;
 
 }
-.text{
+.text {
   font-size: 40px;
-  color:rgb(0, 19, 128);
+  color: rgb(0, 19, 128);
   font-family: Arial, Helvetica, sans-serif;
-  margin-left:80px;
-  margin-bottom:10px;
-
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top:2%;
+  border-radius: 25px;
+ 
+ width:350px;
+  background-color: rgb(175, 232, 175);;
+  text-align: center; /* Add this property to center the text */
 }
 .X{
   font-size:30px;
