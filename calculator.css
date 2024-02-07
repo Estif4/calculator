@@ -30,6 +30,31 @@
       margin-bottom:10px;
       
       }
+      .div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-bottom: 5px;
+ 
+}
+
+input[type="button"] {
+  width: 20%; /* Adjust the width of the buttons */
+  box-sizing: border-box; /* Include padding and borders in the width calculation */
+}
+
+.dot {
+  width: 15%; /* Adjust the width of the dot button */
+}
+
+.plus {
+  width: 10%; /* Adjust the width of the plus button */
+}
+
       .all{
         border-style:solid;
         border-color:aqua;
