@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet"href='calculator.css'>
+    <style>
+     
+  
+
+    </style>
+  </head>
+  <body>
+    <p class="text">Asimple Calculator</p>
+ <br><div class="all">
+    <input type="text" class="output" onclick="count=0">
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    <br>
+    <input type="button" class="seven" value="7" onclick="count5=0;count=0;calculator(7);">
+    <input type="button" value="8" onclick=" count=0; count5=0;calculator(8); ">
+    <input type="button" value="9" onclick=" count=0;count5=0;calculator(9);">
+    <input type="button" value="*" onclick="calculator('*');count6=0;count5=1;count++;count3=1">
+    <br>
+    <input type="button" value="4" onclick="count=0;calculator(4);">
+    <input type="button" value="5" onclick="count=0;count5=0;calculator(5);">
+    <input type="button" value="6" onclick="count=0;count5=0;calculator(6);">
+    <input type="button" value="-" onclick="count5=1;calculator('-');count++;count3=1"><br>
+    <input type="button" value="1" onclick="count=0;count5=0;calculator(1);">
+    <input type="button" value="2" onclick="count=0;count5=0;calculator(2);">
+    <input type="button" value="3" onclick="count=0;count5=0;calculator(3);">
+    <input class="plus" type="button" value="+" onclick="count5=1;calculator('+');count++;count3=1">
+<br>
+    <input type="button" value="0" onclick="count=0,count5=0;calculator(0);">
+    <input class="dot" type="button" value="." onclick="if(count3===1){calculator('.');count++;} count3++">
+    <input type="button" value="=" class="equ" onclick="calculator('=');  count3=1">
+    <input type="button" value="/" onclick="count5=1;calculator('/');count6=0;count++;count3=1"><br>
+    <input type="button" class="del" value="AC" onclick="count=0;calculator('del');count3=1">
+    <input type="button" class="X" value="X" onclick="count=0;calculator('X');">
+    <input type="button" class="bracket1" value="(" onclick="count=0;calculator('(');">
+    <input type="button" class="bracket2" value=")" onclick="count=0;calculator(')');">
+  </div>
+  <script src="calculator.js"></script>
+   
+
+
+  </body>
+</html>

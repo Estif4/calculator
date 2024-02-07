@@ -1,0 +1,106 @@
+ input{
+        display:inline-block;
+        margin-left:2px;
+        padding:19px;
+        color:aliceblue;
+        background-color: rgb(11, 9, 42);
+        font-size:45px;
+        margin-top: 2px;
+        box-shadow:5px 5px 5px rgba(255, 251, 223, 0.5);
+        border-radius:15px;
+      }
+      
+      .output{
+
+        background-color: aliceblue;
+        color:rgb(72, 0, 255);
+        height:35px;
+        margin-bottom:-5px;
+        width:228px;
+        padding-top:30px;
+        font-size: 30px;
+        padding-right:30px;
+        text-align: right;
+        border:none;
+      outline: none;
+      background-color:rgb(231, 231, 231);
+      margin-bottom:10px;
+      
+      }
+      .all{
+        border-style:solid;
+        border-color:aqua;
+        padding-bottom:5px;
+        width:280px;
+      
+ margin-left:100px;
+ border-radius:15px;
+ padding:15px;
+ background-color: antiquewhite;
+ box-shadow: -5px 10px 15px 12px rgb(144, 158, 159);
+ 
+      }
+      .del{
+        color:rgb(241, 82, 82);
+        width:70px;
+        height:70px;
+        margin-right:5px;
+        padding-top: 5px;;
+        padding-bottom:60px;
+        font-size:30px;
+        border-radius: 50%;
+        padding-bottom:50px;
+        padding-left: 15px;
+        padding-top:20px;
+        padding-right:30px;
+        box-shadow: 1px 1px 2px 5px rgb(249, 171, 171);
+       
+        
+       
+      }
+.dot{
+  width:65px;
+
+}
+.plus{
+  display:inline-flex;
+  width:55px;
+  text-align:center;
+  justify-content: center;
+
+}
+.text{
+  font-size: 40px;
+  color:rgb(0, 19, 128);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:80px;
+  margin-bottom:10px;
+
+
+}
+.X{
+  font-size:30px;
+  margin-bottom:-2px;
+  padding-bottom:10px;
+  width:70px;
+  height:70px;
+ border-radius: 50%;
+ color:rgb(198, 252, 117);
+ box-shadow: 1px 1px 5px 5px rgb(102, 102, 177);
+ margin-top:10px;
+}
+  .bracket1{
+    font-size: 25px;
+    padding-left:20px;
+    padding-bottom:15px;
+    margin-left:5px;
+    
+  }
+  .bracket2{
+    font-size: 25px;
+    padding-left:20px;
+    padding-bottom:15px;
+    margin-left:5px;
+    
+  }
+  
